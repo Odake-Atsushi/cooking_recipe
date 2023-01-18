@@ -19,5 +19,35 @@ table {
 }
 
 tr:nth-child(odd) {
-    background-color: #ddd;
+    background-color: lightgray;
+}
+
+.menu_ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu_li {
+    list-style: none;
+    padding: 0;
+    border: solid black;
+    border-width: 1px 0 0 0;
+    font-size: large;
+}
+
+.menu_li:last-child {
+    border-bottom-width: 1px;
+}
+
+.menu_li:hover {
+    background-color: skyblue;
+}
+
+.menu_a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    height: 3em;
+    line-height: 3em;
+    padding-left: 1em;
 }
